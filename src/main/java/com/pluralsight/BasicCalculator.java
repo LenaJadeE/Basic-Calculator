@@ -15,10 +15,17 @@ public class BasicCalculator {
     int secondNumber = scanner.nextInt();
 
     // The menu of my possible calculation formulas
+    System.out.println("Possible calculations:");
+    System.out.println("(A)dd");
+    System.out.println("(S)ubtract");
+    System.out.println("(M)ultiply");
+    System.out.println("(D)ivide");
 
+    System.out.println("Please select an option: ");
+    String selectedOption = scanner.next();
 
-
-
+    //  I am removing the selected option to only multiply
+    int product = firstNumber * secondNumber;
 
 
 // Step 2:
