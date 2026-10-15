@@ -27,6 +27,9 @@ public class BasicCalculator {
     //  I am removing the selected option to only multiply
     int product = firstNumber * secondNumber;
 
+    System.out.println(firstNumber + " * " + secondNumber + " = " + product);
+
+    scanner.close();
 
 // Step 2:
 // Ensure all your changes are committed and pushed to GitHub
